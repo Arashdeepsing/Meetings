@@ -7,6 +7,7 @@ https://meetings-mauve.vercel.app/
 
 
 2.Create account using email, google, apple or github
+
 **!!!!!!!!  There might be wrong redirection, to clerk “Auth signin”. This is because the clerk is production ready Authorization, however, it does not allow Vercel apps to use its production instance !!!!!!!! **
 
 
