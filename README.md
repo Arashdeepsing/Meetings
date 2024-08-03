@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Steps to review the website:
 
-## Getting Started
+-Getting into the meeting app
 
-First, run the development server:
+1.Start by clicking the following link:
+https://meetings-mauve.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.Create account using email, google, apple or github
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+!!!  There might be wrong redirection, to clerk “Auth signin”. This is because the clerk is production ready Authorization, however, it does not allow Vercel apps to use its production instance !!! 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+You simply have to click the website link again and you will be ready to go as you were already signed up and logged in while first time
+You will be asked to enter your username and that’s all you need to do to start the application
+3. Starting an instant new meeting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You simply have to click the “instant new meeting” card → and then click “start meetings”
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. You will be redirected “Meeting Startup Configuration”
 
-## Deploy on Vercel
+5. Here you have to access the video and audio permissions to get into the meeting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Simply join the meeting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. To test the functionality of multiple devices conferencing
+
+8. Simple copy the link from the browser of current meeting room and paste into the browser of another device or in-cognito mode.
+
+9.To have to sign up with another account
+
+10. and Join the meeting ( I would recommend you to test the copied link to the mobile phone to test its flexibility on mobile devices too)
+
+——————————————————————————————————————
+
+Schedule meeting
+
+Adds the new schedule to the upcoming list page
+
+
+
+
+Video recording 
+
+
+This application also has the video recording functionality that helps to record the ongoing video meeting in a meeting room. This is all possible because of the the powerful features of the “Stream.io SDK” 
+
+All the video recordings are stored in your recordings list 
+
+Previous 
+
+This app have “previous” webpage that stores all the meetings we were part of, and display them in page name previous on sidebar
+
+
+Important Note
+
+I would recommend you to copy meeting links for sharing purposes from your own browser. Avoid copying from the website. “There is small bug i am trying to fix”
