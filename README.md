@@ -1,4 +1,4 @@
-Steps to review the website:
+**Steps to Explore the website:**
 
 -Getting into the meeting app
 
@@ -7,13 +7,12 @@ https://meetings-mauve.vercel.app/
 
 
 2.Create account using email, google, apple or github
+**!!!!!!!!  There might be wrong redirection, to clerk “Auth signin”. This is because the clerk is production ready Authorization, however, it does not allow Vercel apps to use its production instance !!!!!!!! **
 
 
-!!!  There might be wrong redirection, to clerk “Auth signin”. This is because the clerk is production ready Authorization, however, it does not allow Vercel apps to use its production instance !!! 
+-You simply have to click the website link again and you will be ready to go as you were already signed up and logged in while first time
+-You will be asked to enter your username and that’s all you need to do to start the application
 
-
-You simply have to click the website link again and you will be ready to go as you were already signed up and logged in while first time
-You will be asked to enter your username and that’s all you need to do to start the application
 3. Starting an instant new meeting
 
 You simply have to click the “instant new meeting” card → and then click “start meetings”
@@ -32,27 +31,28 @@ You simply have to click the “instant new meeting” card → and then click �
 
 10. and Join the meeting ( I would recommend you to test the copied link to the mobile phone to test its flexibility on mobile devices too)
 
-——————————————————————————————————————
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-Schedule meeting
+**Schedule meeting**
 
 Adds the new schedule to the upcoming list page
 
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 
-
-Video recording 
+**Video recording **
 
 
 This application also has the video recording functionality that helps to record the ongoing video meeting in a meeting room. This is all possible because of the the powerful features of the “Stream.io SDK” 
 
 All the video recordings are stored in your recordings list 
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-Previous 
+**Previous **
 
 This app have “previous” webpage that stores all the meetings we were part of, and display them in page name previous on sidebar
 
-
-Important Note
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+**Important Note**
 
 I would recommend you to copy meeting links for sharing purposes from your own browser. Avoid copying from the website. “There is small bug i am trying to fix”
