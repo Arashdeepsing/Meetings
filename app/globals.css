@@ -25,7 +25,12 @@
 }
 
 .bg-animation {
-  background: linear-gradient(270deg, rgb(49, 48, 48), rgb(41, 41, 41), rgb(30, 30, 30));
+  background: linear-gradient(
+    270deg,
+    rgb(49, 48, 48),
+    rgb(41, 41, 41),
+    rgb(30, 30, 30)
+  );
   background-size: 600% 600%;
   animation: gradientBG 10s ease infinite;
 }
@@ -88,6 +93,9 @@
 
 /* ==== clerk class override ===== */
 .cl-providerIcon__github {
+  filter: invert(1);
+}
+.cl-providerIcon__apple {
   filter: invert(1);
 }
 
