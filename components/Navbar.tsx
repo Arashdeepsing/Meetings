@@ -6,7 +6,7 @@ import PhoneNavigation from "./PhoneNavigation";
 
 const Navbar = () => {
   return (
-    <nav className="flex-between fixed z-50 w-full glassmorphism px-10 py-7 lg:px-10">
+    <nav className="flex-between fixed z-50 w-full px-10 py-7 lg:px-10">
       <Link href="/" className="flex items-center gap-1">
         <Image
           src="/icons/logo.svg"
