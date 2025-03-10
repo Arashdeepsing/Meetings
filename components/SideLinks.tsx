@@ -30,6 +30,7 @@ const SideLink = () => {
               <Image
                 src={item.imgUrl}
                 alt={item.label}
+                className={cn("sidebar-icon")}
                 width={24}
                 height={24}
               />

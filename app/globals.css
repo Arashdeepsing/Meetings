@@ -91,6 +91,15 @@
   height: 100vh;
 }
 
+.sidebar-icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.sidebar-icon:hover {
+  filter: invert(1); /* Change to desired hover color */
+}
+
 /* ==== clerk class override ===== */
 .cl-providerIcon__github {
   filter: invert(1);
