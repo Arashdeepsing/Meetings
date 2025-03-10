@@ -81,19 +81,10 @@
 }
 
 .home-page-layout {
-  /* background: linear-gradient(
-    to bottom,
-    #1a1a1a,
-    #333344
-  ); Very Dark Gray to Dark Slate with shimmer */
-  /* or */
-  /* background: linear-gradient(
-    to bottom,
-    #222233,
-    #4a4a55
-  ); /* Dark Slate with blue to Dark Gray with metallic sheen */
-  /* or radial gradient */
-  background: radial-gradient(circle, #34495e, #eceff1);
+  /* background: radial-gradient(circle, #34495e, #eceff1); --{circle} */
+  background:linear-gradient(to bottom, #282C34, #3E444E)
+  /* background: linear-gradient(to bottom, #2C3E50, #607D8B, #ECEFF1); --{linear}*/
+
   background-attachment: fixed;
   margin: 0;
   height: 100vh;
