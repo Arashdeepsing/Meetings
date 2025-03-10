@@ -13,7 +13,7 @@ const Navbar = () => {
           width={32}
           height={32}
           alt="logo"
-          className="max-sm:size-10"
+          className="max-sm:size-10 "
         />
         <p className="text-[26px] font-extrabold text-pink-800 max-sm:hidden max-lg:hidden">
           Meetings
