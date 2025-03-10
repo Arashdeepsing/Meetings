@@ -10,7 +10,7 @@ const SideLink = () => {
   const pathname = usePathname();
 
   return (
-    <section className="sticky left-0 top-0 flex h-screen w-fit flex-col justify-between glassmorphism p-6 pt-28 text-white max-sm:hidden lg:w-[264px]">
+    <section className="sticky left-0 top-0 flex h-screen w-fit flex-col justify-between glassmorphism  pt-28 text-white max-sm:hidden lg:w-[264px]">
       <div className="flex rounded-none flex-1 flex-col gap-6">
         {links.map((item) => {
           const isActive =
