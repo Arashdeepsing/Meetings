@@ -137,6 +137,9 @@
 }
 .banner {
   background-image: url("../public/icons/login-min.jpg");
+  background-size: cover; /* Adjusts the image to cover the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 /* Utility classes */
 @layer utilities {
