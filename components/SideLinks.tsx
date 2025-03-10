@@ -21,7 +21,7 @@ const SideLink = () => {
               href={item.route}
               key={item.label}
               className={cn(
-                "flex gap-4 items-center p-4 rounded-sm justify-start hover:bg-gray-800",
+                "flex gap-4 items-center p-4 rounded-sm justify-start hover:bg-gray-800 transform transition-transform duration-300",
                 {
                   "bg-gray-900": isActive,
                 }
