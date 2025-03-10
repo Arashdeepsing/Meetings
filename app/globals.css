@@ -135,7 +135,9 @@
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
-
+.banner {
+  background-image: url("../public/icons/login-min.jpg");
+}
 /* Utility classes */
 @layer utilities {
   .flex-center {
