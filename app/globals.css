@@ -160,6 +160,10 @@
   animation: show 0.7s forwards linear;
 }
 
+.lucide {
+  filter: invert(1);
+}
+
 @keyframes show {
   0% {
     animation-timing-function: ease-in;
