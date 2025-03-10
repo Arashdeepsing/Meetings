@@ -9,6 +9,7 @@ https://meetings-mauve.vercel.app/
 <h2> Features </h2>
 <h3> Authentication </h3>
 <ul>
+<li>Users can sign up and log in using</li>
 <ul>
 <li>Google account</li>
 <li>GitHub account</li>
