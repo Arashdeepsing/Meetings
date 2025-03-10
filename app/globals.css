@@ -82,7 +82,7 @@
 
 .home-page-layout {
   /* background: radial-gradient(circle, #34495e, #eceff1); --{circle} */
-  background:linear-gradient(to bottom, #282C34, #3E444E)
+  background: linear-gradient(to bottom, #282c34, #3e444e);
   /* background: linear-gradient(to bottom, #2C3E50, #607D8B, #ECEFF1); --{linear}*/
 
   background-attachment: fixed;
