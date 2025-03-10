@@ -87,13 +87,13 @@
     #333344
   ); Very Dark Gray to Dark Slate with shimmer */
   /* or */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     #222233,
     #4a4a55
-  ); /* Dark Slate with blue to Dark Gray with metallic sheen
+  ); /* Dark Slate with blue to Dark Gray with metallic sheen */
   /* or radial gradient */
-  /* background: radial-gradient(circle, #2A2A3A, #333344); */
+  background: radial-gradient(circle, #2a2a3a, #333344);
   background-attachment: fixed;
   margin: 0;
   height: 100vh;
