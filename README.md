@@ -1,58 +1,72 @@
-**Steps to Explore the website:**
+<h1> Meetings Project Documentation </h1>
 
--Getting into the meeting app
-
-1.Start by clicking the following link:
 https://meetings-mauve.vercel.app/
 
+<h3> Overview </h3>
 
-2.Create account using email, google, apple or github
+<p> The Meetings application is a web-based platform that enables users to host, schedule, and manage virtual meetings with ease. It provides authentication via third-party providers, real-time meeting capabilities, scheduling features, meeting history access, and recording functionality.</p>
 
-**!!!!!!!!  There might be wrong redirection, to clerk “Auth signin”. This is because the clerk is production ready Authorization, however, it does not allow Vercel apps to use its production instance !!!!!!!! **
+<h2> Features </h2>
+<h3> Authentication </h3>
+<ul>
+<ul>
+<li>Google account</li>
+<li>GitHub account</li>
+<li>Apple account</li>
+</ul>
+<li>Authentication is handled securely via Clerk API</li>
+</ul>
+<h3> User Features</h3>
+<h4>New Meetings</h4>
+<ul><li>Users can initiate instant meetings.</li>
+<li>
+The application generates a shareable URL for others to join in real-time.</li>
+</ul>
 
+<h3>Scheduled Meetings</h4>
+<ul>
+<li>Users can schedule meetings for a future date and time.</li>
 
--You simply have to click the website link again and you will be ready to go as you were already signed up and logged in while first time
--You will be asked to enter your username and that’s all you need to do to start the application
+<li>The system provides a unique URL for scheduled meetings.</li>
 
-3. Starting an instant new meeting
+<li>Participants can join using the shared URL.</li>
+</ul>
+<h4>Meeting History</h4>
+<ul>
+<li>Users can access their past meetings.</li>
 
-You simply have to click the “instant new meeting” card → and then click “start meetings”
+<li>Meeting records include timestamps and details.</li>
+</ul>
+<h4>Meeting Recordings</h4>
+<ul>
+<li> Users can record their meetings.</li>
 
-4. You will be redirected “Meeting Startup Configuration”
+<li> Recordings are stored and accessible for later viewing.</li>
+</ul>
 
-5. Here you have to access the video and audio permissions to get into the meeting
+<h2>Usage Guide</h2>
+<ul>
+<li>Authentication: Sign in using Google, GitHub, or Apple.</li>
 
-6. Simply join the meeting
+<li>Starting a Meeting: Click "Start Meeting" to create an instant meeting and share the link.</li>
 
-7. To test the functionality of multiple devices conferencing
+<li>Scheduling a Meeting: Use the scheduling feature to set up future meetings.</li>
 
-8. Simple copy the link from the browser of current meeting room and paste into the browser of another device or in-cognito mode.
+<li>Accessing Past Meetings: Navigate to "Meeting History" for past records.</li>
 
-9.To have to sign up with another account
+<li>Recording Meetings: Enable recording during meetings and access saved recordings later.</li>
+</ul>
 
-10. and Join the meeting ( I would recommend you to test the copied link to the mobile phone to test its flexibility on mobile devices too)
+<h2>Technologies Used </h2>
+<ul>
+<li><b>Next.js</b> - Framework for React applications.</li>
 
-——————————————————————————————————————————————————————————————————————
+<li><b>TypeScript</b> - Strongly typed JavaScript.</li>
 
-**Schedule meeting**
+<li><b>Tailwind CSS</b> - Styling framework.</li>
 
-Adds the new schedule to the upcoming list page
+<li><b>Clerk API</b> - Authentication management.</li>
 
-—————————————————————————————————————————————————————————————————————-
+<li><b>MongoDB</b>  - Database (depending on configuration).</li>
 
-**Video recording **
-
-
-This application also has the video recording functionality that helps to record the ongoing video meeting in a meeting room. This is all possible because of the the powerful features of the “Stream.io SDK” 
-
-All the video recordings are stored in your recordings list 
-——————————————————————————————————————————————————————————————————————————
-
-**Previous **
-
-This app have “previous” webpage that stores all the meetings we were part of, and display them in page name previous on sidebar
-
-————————————————————————————————————————————————————————————————————————
-**Important Note**
-
-I would recommend you to copy meeting links for sharing purposes from your own browser. Avoid copying from the website. “There is small bug i am trying to fix”
+</ul>
