@@ -2,7 +2,7 @@
 
 https://meetings-mauve.vercel.app/
 
-<h3> Overview </h3>
+<h2> Overview </h2>
 
 <p> The Meetings application is a web-based platform that enables users to host, schedule, and manage virtual meetings with ease. It provides authentication via third-party providers, real-time meeting capabilities, scheduling features, meeting history access, and recording functionality.</p>
 
