@@ -92,12 +92,12 @@
 }
 
 .sidebar-icon {
-  color: white;
+  filter: invert();
   transition: color 0.3s ease;
 }
 
 .sidebar-icon:hover {
-  filter: invert(1); /* Change to desired hover color */
+  filter: invert(1);
 }
 
 /* ==== clerk class override ===== */
