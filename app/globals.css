@@ -81,7 +81,18 @@
 }
 
 .home-page-layout {
-  background: linear-gradient(to bottom, #2c3e50, #607d8b, #eceff1);
+  background: linear-gradient(
+    to bottom,
+    #1a1a1a,
+    #333344
+  ); /* Very Dark Gray to Dark Slate with shimmer */
+  /* or */
+  /* background: linear-gradient(to bottom, #222233, #4A4A55); /* Dark Slate with blue to Dark Gray with metallic sheen */
+  /* or radial gradient */
+  /* background: radial-gradient(circle, #2A2A3A, #333344); */
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
 }
 
 /* ==== clerk class override ===== */
