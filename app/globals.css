@@ -81,13 +81,17 @@
 }
 
 .home-page-layout {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     #1a1a1a,
     #333344
-  ); /* Very Dark Gray to Dark Slate with shimmer */
+  ); Very Dark Gray to Dark Slate with shimmer */
   /* or */
-  /* background: linear-gradient(to bottom, #222233, #4A4A55); /* Dark Slate with blue to Dark Gray with metallic sheen */
+  background: linear-gradient(
+    to bottom,
+    #222233,
+    #4a4a55
+  ); /* Dark Slate with blue to Dark Gray with metallic sheen
   /* or radial gradient */
   /* background: radial-gradient(circle, #2A2A3A, #333344); */
   background-attachment: fixed;
